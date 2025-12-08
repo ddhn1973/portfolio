@@ -2,8 +2,6 @@
 @import url(default.css);
 @import url(fonts.css);
 @import url(common.css);
-@import url(layout.css);
-
 
 .blind {
     position: absolute;
@@ -33,6 +31,11 @@ header .logo a {
     width: 75px;
     height: 55px;
     background: url(../images/logo.png) no-repeat center center / cover;
+}
+header .name {
+    font-family: 'on';
+    font-weight: 700;
+    color: #1d1d1d;
 }
 .section {
     position: relative;
@@ -75,6 +78,9 @@ header .logo a {
     margin-top: 32px;
 }
 .bottom {
+    font-family: 'on';
+    font-weight: 700;
+    color: #1d1d1d;
     display: flex;
     justify-content: space-between;
     padding: 0 var(--wrapper-margin);
