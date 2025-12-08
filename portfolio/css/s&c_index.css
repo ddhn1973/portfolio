@@ -209,6 +209,9 @@ header.scrolled {
     color: #1d1d1d;
 }
 .part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 .btn-top {
